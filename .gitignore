@@ -1,0 +1,120 @@
+# Multi-Agent Systems Portfolio
+# Standard development exclusions
+
+# Development documentation
+agents/INTERVIEW_PREPARATION.md
+agents/AGNO_FRAMEWORK_INTERVIEW_GUIDE.md
+agents/PORTFOLIO_VALIDATION.md
+agents/DEMO_SCRIPTS.md
+agents/DOCUMENTATION_SUMMARIES.md
+agents/AGNO_COMPLIANCE_REPORT.md
+agents/AGNO_INTERVIEW_CONFIDENCE.md
+agents/setup_validation.py
+
+# Documentation files
+*.pdf
+*notes*.md
+
+# Environment and secrets
+.env
+**/.env
+*.env.local
+*.env.development
+*.env.test
+*.env.production
+
+# API Keys and sensitive data
+**/api_keys.txt
+**/secrets.txt
+
+# Database files (contain session data)
+*.db
+*.sqlite
+*.sqlite3
+**/*.db
+**/*.sqlite
+
+# Python cache and build
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.Python
+build/
+develop-eggs/
+dist/
+downloads/
+eggs/
+.eggs/
+lib/
+lib64/
+parts/
+sdist/
+var/
+wheels/
+*.egg-info/
+.installed.cfg
+*.egg
+MANIFEST
+
+# Virtual environments
+venv/
+env/
+ENV/
+env.bak/
+venv.bak/
+**/venv/
+**/env/
+
+# IDE and editor files
+.vscode/
+.idea/
+.claude/
+*.swp
+*.swo
+*~
+.DS_Store
+Thumbs.db
+
+# Logs and temporary files
+*.log
+logs/
+*.tmp
+*.temp
+temp/
+
+# OS generated files
+.DS_Store
+.DS_Store?
+._*
+.Spotlight-V100
+.Trashes
+ehthumbs.db
+Thumbs.db
+
+# Backup and recovery files
+*.backup
+*.bak
+*.old
+
+# Testing and coverage
+.coverage
+.pytest_cache/
+.tox/
+.coverage.*
+htmlcov/
+.nyc_output
+
+# Documentation build
+docs/_build/
+docs/build/
+
+# Jupyter Notebook checkpoints
+.ipynb_checkpoints
+
+# Personal notes and drafts
+notes.txt
+notes.md
+draft*.md
+personal_notes/
+study_notes/

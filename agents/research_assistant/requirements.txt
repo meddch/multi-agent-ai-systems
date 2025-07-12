@@ -1,0 +1,9 @@
+agno
+openai
+arxiv
+PyPDF2
+lancedb
+nltk
+pypdf
+duckduckgo-search
+sqlalchemy
