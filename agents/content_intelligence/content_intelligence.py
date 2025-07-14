@@ -24,7 +24,7 @@ def create_content_intelligence_team():
     text_analyst = Agent(
         name="Text Content Analyst",
         role="Comprehensive text analysis for sentiment, themes, and quality",
-        model=OpenAIChat(id="gpt-4o-mini-mini"),
+        model=OpenAIChat(id="gpt-4o-mini"),
         tools=[
             ReasoningTools(add_instructions=True),
             PythonTools()
@@ -64,7 +64,7 @@ def create_content_intelligence_team():
     audio_expert = Agent(
         name="Audio Content Expert",
         role="Audio content analysis and transcription",
-        model=OpenAIChat(id="gpt-4o-mini-mini"),
+        model=OpenAIChat(id="gpt-4o-mini"),
         tools=[
             ReasoningTools(add_instructions=True),
             PythonTools()
@@ -157,7 +157,7 @@ def create_content_intelligence_team():
     # Create coordinated team
     team = Team(
         name="Content Intelligence Team",
-        mode="coordinate",
+        mode="collaborate",
         members=[text_analyst, vision_specialist, audio_expert, video_analyzer, brand_safety_monitor, engagement_predictor, intelligence_coordinator],
         instructions=[
             "Work together to provide comprehensive multi-modal content analysis.",
